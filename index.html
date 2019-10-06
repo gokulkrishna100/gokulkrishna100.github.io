@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<style>
+body {
+     font-family: 'Roboto', sans-serif;
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  box-shadow:1px 1px 5px #888888;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ffffff;
+  color: red;
+}
+
+
+.sidebar {
+  height: 100%;
+  width: 350px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: WHITE;
+  overflow-x: hidden;
+  padding-top: 100px;
+  box-shadow:1px 1px 5px #888888;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 300px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+color: green ;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+p{
+background-color: #e6ffff;
+}
+.badge-notify{
+   background:#F38383 ;
+   position:relative;
+   top: -12px;
+   left: -16px;
+  }
+div.main{
+  margin: 500 px;
+background-color: #e6ffff;
+}
+div.b {
+  position: absolute;
+  right: 450px;
+  top: 2%;
+  width: 100px;
+  height: 120px;
+  
+}
+div.c {
+  position: absolute;
+  right: 350px;
+  top: 0.70%;
+  width: 100px;
+  height: 120px;
+  
+}  
+.column {
+  float: left;
+  width: 40%;
+  padding: 50px 50px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 30px 350px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 50px;
+  text-align: center;
+  background-color: white;
+  cursor : pointer;
+}
+.card:hover img{
+   content: url('green.png');
+   height:80px;
+   width:80px;
+   }
+
+.card:hover h3{
+    color: #3EBCB3;
+
+}
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+
+</style>
+</head>
+<body>
+
+<div class="topnav" style="padding: 0px 400px">
+    <img src="whitepanda.png" alt="whitepanda" itemprop="logo" style="width:150px;height:90px;">
+	 <a href ="#notification">  <div class="b"><i class="fa fa-bell" style="color:black;font-size:40px;"></i> 
+	<span class="badge badge-notify" style="font-size:20px;">699</span> </div> </a>
+	<a href = "#user"><div class="c"> 
+ <i class="fa fa-user" style="font-size:40px;"></i> </a>
+</div>
+</div>
+<div class="sidebar">
+
+  
+  <a href="#services"><i class="	fa fa-th-large"></i> </a>
+
+  <a href="#contact"><i class="fa fa-search"></i> </a>
+  <a href="filt"> <i class="fa fa-archive"></i></a>
+
+</div>
+
+<div class="main" style="padding:0px 50 px;">
+
+<pre><h1>                   Content Store</h1>
+<p> <b>             <font color=#00cccc>   <font size="5">                 Got bulk orders or almost similar orders? Fill the order brief in an excel sheet</font></font></b> </pre>
+<pre><p>                                      <font size="4">     If you're wondering an easy way to place orders in large numbers, we provide a way customized just fot that.
+                                    Download our excel sheet, and fill the order brief in the prescribed format and submit. In case you need any help,<u>we</u> 
+                                    <u>are just a click away to assist in placing your order</u></font>
+
+</pre>
+</p>
+<pre>                                            <button type="button" ><font color=#00cccc>Order via Excel Sheet</font></button>
+</pre>
+</div>
+
+
+<div class="row">
+  <div class="column">
+    <div class="card"><table>
+<tr>
+<td>
+<img src="cardlogo.png"></td>
+<td>
+    <h3>Blog/Article</h3>
+      <pre>from RS.500</pre>
+</td>
+</tr>
+</table>
+    
+      <pre>  Typically 450-400 words, an e-book is
+    perfect for your target audience rangin
+from prospective customers to users</pre>
+       <button type="button" ><font color=#00cccc>Order</font></button>
+</div>
+  </div>
+
+
+ <div class="column">
+    <div class="card">
+<table>
+<tr>
+<td>
+<img src="cardlogo.png"></td>
+<td>
+       
+      <h3>Newsletter/E-mailer</h3>
+      <pre>from RS.1000</pre>
+</td>
+</tr>
+</table>
+      <pre>  Typically 450-400 words, an e-book is
+    perfect for your target audience rangin
+from prospective customers to users</pre>
+
+       <button type="button" ><font color=#00cccc>Order</font></button>
+</div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+<table>
+<tr>
+<td>
+<img src="cardlogo.png"></td>
+<td>
+       
+      <h3>Whitepaper</h3>
+      <pre>from RS.2000</pre>
+</td>
+</tr>
+</table>
+      <pre>  Typically 450-400 words, an e-book is
+    perfect for your target audience rangin
+from prospective customers to users</pre>
+
+       <button type="button" ><font color=#00cccc>Order</font></button>
+</div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+<table>
+<tr>
+<td>
+<img src="cardlogo.png"></td>
+<td> <h3>e-book</h3>
+      <pre>from RS.1000</pre>
+</td>
+</tr>
+</table>
+      <pre>  Typically 450-400 words, an e-book is
+    perfect for your target audience rangin
+from prospective customers to users</pre>
+
+       <button type="button" ><font color=#00cccc>Order</font></button>
+</div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+<table>
+<tr>
+<td>
+<img src="cardlogo.png"></td>
+<td> <h3>Report/Guide</h3>
+      <pre>from RS.1000</pre>
+</td>
+</tr>
+</table>
+      <pre>  Typically 450-400 words, an e-book is
+    perfect for your target audience rangin
+from prospective customers to users</pre>
+
+       <button type="button" ><font color=#00cccc>Order</font></button>
+</div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+<table>
+<tr>
+<td>
+<img src="cardlogo.png"></td>
+<td> <h3>Product Decription</h3>
+      <pre>from RS.500</pre>
+</td>
+</tr>
+</table>
+      <pre>  Typically 450-400 words, an e-book is
+    perfect for your target audience rangin
+from prospective customers to users</pre>
+
+       <button type="button" ><font color=#00cccc>Order</font></button>
+</div>
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <div class="card">
+<table>
+<tr>
+<td>
+<img src="cardlogo.png"></td>
+<td> <h3>Website Content</h3>
+      <pre>from RS.1000</pre>
+</td>
+</tr>
+</table>
+      <pre>  Typically 450-400 words, an e-book is
+    perfect for your target audience rangin
+from prospective customers to users</pre>
+
+       <button type="button" ><font color=#00cccc>Order</font></button>
+</div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+<table>
+<tr>
+<td>
+<img src="cardlogo.png"></td>
+<td> 
+      <h3>Video Script</h3>
+      <pre>from RS.1000</pre>
+</td>
+</tr>
+</table>
+       <pre>  Typically 450-400 words, an e-book is
+    perfect for your target audience rangin
+from prospective customers to users</pre>
+
+       <button type="button" ><font color=#00cccc>Order</font></button>
+</div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+<table>
+<tr>
+<td>
+<img src="cardlogo.png"></td>
+<td> 
+     <h3>Company Profile/Brochure</h3>
+      <pre>from RS.2000</pre>
+</td>
+</tr>
+</table>
+       <pre>  Typically 450-400 words, an e-book is
+    perfect for your target audience rangin
+from prospective customers to users</pre>
+
+       <button type="button" ><font color=#00cccc>Order</font></button>
+</div>
+  </div>
+<div class="column">
+    <div class="card">
+<table>
+<tr>
+<td>
+<img src="cardlogo.png"></td>
+<td> 
+    <h3>Press Release</h3>
+      <pre>from RS.2000</pre>
+</td>
+</tr>
+</table>
+       <pre>  Typically 450-400 words, an e-book is
+    perfect for your target audience rangin
+from prospective customers to users</pre>
+
+       <button type="button" ><font color=#00cccc>Order</font></button>
+</div>
+  </div>
+</div>
+<div style="margin-left:70px">
+<center><pre><i class="fa fa-facebook-square" style="font-size:48px;color:blue"></i>      <i class="fa fa-instagram" style="font-size:48px;color:red"></i>      <i class="fa fa-linkedin" style="font-size:48px;color:cyan"></i>      <i class="fa fa-twitter" style="font-size:48px;color:#3434cb"></i></pre>
+
+<pre>Copyright @ 2019 White Panda Media Pvt. Ltd.
+All rights reserved</pre>
+<pre> <u>Privacy policy</u> | <u>Terms of service</u> | <u>Service Agreement</u> | <u>Contact Us</u></pre>
+<br>
+<br>
+</center>
+</body>
+</html>
